@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>Time Duration Calculation</h1>
+
+      <table style="width: 30%">
+        <tr>
+          <th>Start Time</th>
+          <th>End Time</th>
+        </tr>
+        <tr>
+          <td><input type="time" name="start" onchange="starttime()"/></td>
+          <td><input type="time" name="end"  onchange="endtime()"/></td>
+        </tr>
+        <tr>
+          <td colspan="2">your calculated time is here :</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+
+  <script>
+    function starttime(){
+        console.log('start time')
+    }
+
+    function endtime(){
+        console.log('end time');
+    }
+  </script>
+</html>
